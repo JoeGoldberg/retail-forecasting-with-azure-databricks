@@ -1,0 +1,21 @@
+{
+  "jog-databricks" : {"Type" : "Folder", "ControlmServer" : "smprod",
+    "OrderMethod" : "Manual", "SiteStandard" : "jog", "SubApplication" : "Databricks",
+    "CreatedBy" : "joe_goldberg@bmc.com", "Application" : "jog",
+
+    "jog-azure-databricks-workflow" : {"Type" : "Job:Azure Databricks",
+      "ConnectionProfile" : "JOG-AZ-DATABRICKS",
+      "Databricks Job ID" : "674653552173981",
+      "Parameters" : "\"params\" : {}",
+      "SubApplication" : "Databricks",
+      "Host" : "azureagents",
+      "CreatedBy" : "joe_goldberg@bmc.com",
+      "RunAs" : "JOG-AZ-DATABRICKS",
+      "Application" : "jog",
+      "AzEastPublicIPs" : {
+        "Type" : "Resource:Pool",
+        "Quantity" : "8"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "JOG-AZ-DATABRICKS": {
+    "Type": "ConnectionProfile:Azure Databricks",
+    "Tenant ID": "92b796c5-5839-40a6-8dd9-c1fad320c69b",
+    "Databricks Resource": "2ff814a6-3304-4ab8-85cb-cd0e6f879c1d",
+    "Client Secret": "*****",
+    "Application ID": "736885f5-34e9-4d86-a5c9-91b812193116",
+    "Azure Login url": "https://login.microsoftonline.com",
+    "Databricks url": "https://adb-6217349051100668.8.azuredatabricks.net",
+    "Connection Timeout": "50",
+    "Description": "",
+    "Centralized": true
+  }
+}
